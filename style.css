@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+.header {
+    background-color: rgba(29, 30, 31, 0.892);
+    position: absolute;
+    width: 100%;
+}
+
+body {
+    font-family: 'Oxanium';
+}
+
+.wapper {
+    height: 100vh;
+    background-image: url("original.jpeg"), url("apex-section-bg-beige-texture-xl.jpg.adapt.1456w.jpg");
+    background-repeat: no-repeat;
+    background-size: 135%, 200%;
+    background-position: 70% center, 100% center;
+}
+
+.logo img {
+    width: 70px;
+    text-align: right;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 20px;
+    text-decoration: none;
+    position: relative;
+    padding: 20px;
+
+}
+
+.nav li a {
+    color: rgb(238, 238, 253);
+    text-decoration: none;
+}
+
+.nav li:hover {
+    transition-duration: 0.5s;
+    margin-bottom: 10px;
+}
+
+.right-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-menu a {
+    font-size: 16px;
+    margin-left: 25px;
+    text-decoration: none;
+    padding: 5px;
+    text-align: left;
+}
+
+.right-menu a:hover {
+    color: rgb(250, 79, 67);
+    border-right: 3px solid rgb(250, 79, 67);
+    border-top: 3px solid rgb(250, 79, 67);
+    border-bottom: 3px solid rgb(250, 79, 67);
+    transition-duration: 0.8s;
+
+}
+
+.sign {
+    color: rgb(251, 248, 248);
+    margin-right: 5px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.sub-menu {
+    background-color: #1f1e1ec3;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 1s;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.sub-menu li {
+    margin: 10px 0;
+    display: block;
+}
+
+.sub-menu li a {
+    display: block;
+}
+
+.nav li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.row li a:hover {
+    color: rgb(250, 79, 67);
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-20%, -20%);
+    padding: 24px;
+}
+
+.text {
+    font-weight: 100;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(247, 243, 243);
+}
+
+.content p {
+    font-weight: 100;
+    margin: 20px;
+    font-size: 16px;
+    color: rgb(247, 243, 243);
+}
+
+.col-5 {
+    padding: 10px;
+    color: rgb(250, 247, 247);
+    border: 2px solid #fbca06ef;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.content img {
+    width: 300px;
+}
+
+.content a:hover {
+    border: 3px solid #fbca06ef;
+    transition-duration: 0.2s;
+    border-radius: 3px;
+}
+
+.ss2 {
+    height: 100vh;
+    background-image: url("11.png"), url("apex2222-embed-about-legends-01.png");
+    background-color: rgba(16, 16, 16, 0.86);
+    background-position: 78% top, -150% center, center;
+    background-size: 15%, 90%, 200%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.noidung {
+    width: 500px;
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(1.2px);
+    box-shadow: 0 8px 32px 0 rgba(245, 204, 146, 0.37);
+    background-image: url("apex-hero-medium-about-beyond-br-7x2-xl.png.adapt.crop5x2.1455w.png");
+    margin-left: 800px;
+}
+
+.noidung h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(248, 222, 222);
+}
+
+.noidung p {
+    font-weight: 200;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(248, 222, 222);
+    font-size: 16px;
+}
+
+.noidung a {
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+    background: rgb(253, 81, 69);
+    border-radius: 2%;
+    padding: 10px;
+    color: rgb(248, 222, 222);
+}
+
+.noidung a:hover {
+    background: rgb(243, 42, 27);
+}
+
+
+.ss3 {
+    background-color: rgba(16, 16, 16, 0.86);
+    margin-top: auto;
+}
+
+.box1 {
+    color: rgb(248, 222, 222);
+}
+
+.box1 h2 {
+    font-size: 30px;
+}
+
+.box1 p {
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+
+.ss4 {
+    height: 100vh;
+    background-image: url("bluee-01.png"), url("SS444png-01.png");
+    background-color: rgba(16, 16, 16, 0.86);
+    background-position: 100% top, 135% center;
+    background-size: 150%, 78%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.noidung2 {
+    width: 500px;
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(1.2px);
+    box-shadow: 0 8px 32px 0 rgba(245, 204, 146, 0.37);
+    background-image: url("SS4\ CT-1-01.png");
+    margin-left: 20%;
+    border-right: 6px solid rgb(250, 79, 67);
+}
+
+.noidung2 h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(248, 222, 222);
+}
+
+.noidung2 p {
+    font-weight: 200;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(248, 222, 222);
+    font-size: 16px;
+}
+
+.noidung2 a {
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+    background: rgb(253, 81, 69);
+    border-radius: 2%;
+    padding: 10px;
+    color: rgb(248, 222, 222);
+}
+
+.noidung2 a:hover {
+    background: rgb(243, 42, 27);
+}
+
+.ss5 {
+    background-color: rgba(16, 16, 16, 0.86);
+    border-bottom: 4px crimson;
+
+}
+
+.feature img {
+    width: 100%;
+    height: 100%;
+}
+.feature :hover img{
+    -webkit-transform: scale(1.1); transform: scale(1.1);
+    transition-duration: 1s;
+    border: 2px solid rgb(250, 79, 67) ;
+}
+.noidungss8{
+    margin-top: 20px;
+}
+.noidungss5 {
+    border-bottom: 3px solid rgb(250, 79, 67);
+    padding: 0 0px 10px;
+
+}
+.feature a {
+    text-decoration: none;
+}
+
+.ss6 {
+    background-color: rgba(16, 16, 16, 0.86);
+}
+
+.noidungss6 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(248, 222, 222);
+    line-height: 2;
+}
+
+.noidungss6 h2 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.noidungss6 p {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 20px
+}
+
+.ss7 {
+    background-image: url("anhnenss7-01.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.noidungss7 {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+}
+
+.noidungss7 h1 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.noidungss7 p {
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.noidungss7 a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0 3px crimson;
+    padding: 5px;
+    color: white;
+}
+
+.noidungss7 a:hover {
+    color: orangered;
+    box-shadow: 0 3px rgb(252, 122, 148);
+    border-width: 60px;
+}
+
+.ss8 {
+    background-color: rgba(16, 16, 16, 0.86);
+}
+.noidungss8 {
+    color: white;
+}
+.apex {
+    background-image: url("s89.jpeg");
+    background-size: 100%;
+    height: 400px;
+}
+
+.col-12 {
+    padding: 90px;
+    color: aliceblue;
+}
+
+.col-12 h1 {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.col-12 a {
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 30%;
+    color: white;
+    border: 2px solid rgb(250, 79, 67);
+}
+
+.col-12 a:hover {
+    border: 3px solid rgb(250, 79, 67);
+    background-color: rgba(246, 96, 76, 0.728);
+}
+.textapex {
+    margin: 30px;
+    font-weight: 200;
+    font-size: 16px;
+}
+.ss9 {
+    background-color: rgba(16, 16, 16, 0.86);
+    height: 500px;
+}
+.border{
+    border-bottom: 0.8px solid rgba(255, 255, 255, 0.409);
+}
+.noidungss9 {
+    padding-top:40px;
+    display: inline-block;
+}
+.noidungss9 ul {
+    list-style: none;
+}
+
+.noidungss9 li {
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 45px;
+    position: relative;
+}
+.noidungss9 li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.611);
+    font-weight: 200;
+    font-size: 14px;
+}
+.logoss9{
+    font-size: 16px;
+    margin-left: 25px;
+    text-decoration: none;
+    padding: 40px;
+}
+.logoss9 p{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+.logoss9 a{
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+.logoss9 a:hover{
+    transition-duration: 0,8s;
+    color: rgb(251, 61, 32);
+}
+.bong{
+    margin-left: 200px;
+}
+.imgss9{
+    padding-top: 50px;
+}
+.xam li{
+    list-style: none;
+    margin-left: 80px;
+}
+.xam img{
+    width: 250px;
+}
+.logo3 img{
+    width:150px ;
+}
+.logo2 img{
+    width: 80px;
+    
+}
+.lgo4 img{
+    width: 50px;
+}
